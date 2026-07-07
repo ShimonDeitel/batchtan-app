@@ -1,0 +1,42 @@
+{
+  "identifier": "batchtan",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_askToBuyEnabled": false
+  },
+  "subscriptionGroups": [
+    {
+      "id": "21500000",
+      "localizations": [],
+      "name": "BatchTan Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "1.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "batchtan_pro_monthly",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Countdown timers per stage with chemical ratio reference.",
+              "displayName": "BatchTan Pro",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "batchtan_pro_monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "BatchTan Pro Monthly",
+          "subscriptionGroupID": "21500000",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
