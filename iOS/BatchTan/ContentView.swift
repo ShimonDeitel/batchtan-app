@@ -173,9 +173,9 @@ struct HideFormView: View {
     private func save() {
         switch mode {
         case .add:
-            store.addHide(draftSpecies, draftStage, draftSoakStart, draftNotes, isPro: purchases.isPro)
+            store.addHide(species: draftSpecies, stage: draftStage, soakStart: draftSoakStart, notes: draftNotes, isPro: purchases.isPro)
         case .edit(let item):
-            store.updateHide(item.id, draftSpecies, draftStage, draftSoakStart, draftNotes)
+            store.updateHide(item.id, species: draftSpecies, stage: draftStage, soakStart: draftSoakStart, notes: draftNotes)
         }
         BTHaptics.success()
         dismiss()
